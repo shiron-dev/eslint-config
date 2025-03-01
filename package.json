@@ -1,7 +1,7 @@
 {
   "name": "@shiron-dev/eslint-config",
   "type": "module",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Config of ESLint for me.",
   "author": "shiron-dev",
   "license": "MIT",
