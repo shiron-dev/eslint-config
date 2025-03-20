@@ -64,7 +64,7 @@
     "svelte": "5.23.1",
     "tsup": "8.4.0",
     "typescript": "5.8.2",
-    "vitest": "3.0.8",
+    "vitest": "3.0.9",
     "wrangler": "3.114.1"
   },
   "simple-git-hooks": {
