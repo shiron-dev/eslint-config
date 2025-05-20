@@ -51,7 +51,7 @@
     "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-react-refresh": "0.4.20",
     "eslint-plugin-solid": "0.14.5",
-    "eslint-plugin-svelte": "3.7.0",
+    "eslint-plugin-svelte": "3.8.0",
     "eslint-typegen": "2.2.0",
     "esno": "4.8.0",
     "execa": "9.5.3",
