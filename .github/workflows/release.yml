@@ -47,17 +47,19 @@ jobs:
     needs: release-please
     if: ${{ needs.release-please.outputs.release-created }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    environment: Production
     steps:
       - uses: actions/checkout@v5
       - uses: shiron-dev/actions/setup-node@3478cc44402c5c590ce6732554e621558ac6d6e5 # v1.5.0
+        with:
+          registry-url: 'https://registry.npmjs.org'
       - name: Install package
         run: pnpm install --frozen-lockfile
       - name: Build package
         run: pnpm run build
-      - name: Set publishing config
-        run: pnpm config set '//registry.npmjs.org/:_authToken' "${NODE_AUTH_TOKEN}"
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       - name: Publish to npm
         run: |
           pnpm publish --provenance --access public
