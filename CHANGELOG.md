@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.4](https://github.com/shiron-dev/eslint-config/compare/eslint-config-v2.1.3...eslint-config-v2.1.4) (2025-11-14)
+
+
+### Bug Fixes
+
+* **ci:** update release workflow to OIDC publish ([#865](https://github.com/shiron-dev/eslint-config/issues/865)) ([a370aff](https://github.com/shiron-dev/eslint-config/commit/a370aff9623d6893909a75cdf7fb2fbbdce6714b))
+
 ## [2.1.3](https://github.com/shiron-dev/eslint-config/compare/eslint-config-v2.1.2...eslint-config-v2.1.3) (2025-11-13)
 
 
