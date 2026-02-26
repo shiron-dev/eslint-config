@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.1.5](https://github.com/shiron-dev/eslint-config/compare/eslint-config-v2.1.4...eslint-config-v2.1.5) (2026-02-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^6.4.2 ([#908](https://github.com/shiron-dev/eslint-config/issues/908)) ([f963af5](https://github.com/shiron-dev/eslint-config/commit/f963af51fefe6f3cf6fb98041faae3ccb0b46330))
+* **deps:** update dependency @antfu/eslint-config to ^6.5.0 ([#910](https://github.com/shiron-dev/eslint-config/issues/910)) ([440a66f](https://github.com/shiron-dev/eslint-config/commit/440a66fcdba8dce68787f72c1fed075e9e57739a))
+* **deps:** update dependency @antfu/eslint-config to ^6.5.1 ([#911](https://github.com/shiron-dev/eslint-config/issues/911)) ([3eb2e28](https://github.com/shiron-dev/eslint-config/commit/3eb2e28168ab569e4502182be5e105e412bea119))
+* **deps:** update dependency @antfu/eslint-config to ^6.6.1 ([#916](https://github.com/shiron-dev/eslint-config/issues/916)) ([8fdd77a](https://github.com/shiron-dev/eslint-config/commit/8fdd77aeda5210bf227d1fae0d2261978a76dcb7))
+* **deps:** update dependency @antfu/eslint-config to ^6.7.0 ([#924](https://github.com/shiron-dev/eslint-config/issues/924)) ([b3a610b](https://github.com/shiron-dev/eslint-config/commit/b3a610b6e9aafe28b98efbdea27f16e0721625df))
+* **deps:** update dependency @antfu/eslint-config to ^6.7.1 ([#925](https://github.com/shiron-dev/eslint-config/issues/925)) ([9dc0ec1](https://github.com/shiron-dev/eslint-config/commit/9dc0ec161275cdf80bc37d42431e3c067ca3dbb0))
+* **deps:** update dependency @antfu/eslint-config to ^6.7.2 ([#931](https://github.com/shiron-dev/eslint-config/issues/931)) ([b7bb0df](https://github.com/shiron-dev/eslint-config/commit/b7bb0dfc55376367b76e7f492267f488130d8438))
+* **deps:** update dependency @antfu/eslint-config to ^6.7.3 ([#932](https://github.com/shiron-dev/eslint-config/issues/932)) ([3bd8c56](https://github.com/shiron-dev/eslint-config/commit/3bd8c56b04f72212a77ba446e4fef89db4357983))
+* **deps:** update eslint ([#900](https://github.com/shiron-dev/eslint-config/issues/900)) ([a1d10fa](https://github.com/shiron-dev/eslint-config/commit/a1d10fa206ec00bb9f243f007be550db229f90a2))
+* **deps:** update eslint ([#905](https://github.com/shiron-dev/eslint-config/issues/905)) ([6d5ddd7](https://github.com/shiron-dev/eslint-config/commit/6d5ddd7e920cb159a769ac55d824866ca761bd2a))
+
 ## [2.1.4](https://github.com/shiron-dev/eslint-config/compare/eslint-config-v2.1.3...eslint-config-v2.1.4) (2025-11-14)
 
 
