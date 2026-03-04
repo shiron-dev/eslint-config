@@ -62,7 +62,7 @@ export default shiron(
 );
 ```
 
-> Note that `.eslintignore` no longer works in Flat config, see [customization](#customization) for more details.
+> Note that `.eslintignore` no longer works in Flat config, see [customization](https://github.com/antfu/eslint-config#customization) for more details.
 
 </details>
 
