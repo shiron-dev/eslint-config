@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: shiron-dev/actions/setup-node@d898596addf114b0b4a4cd9a984775410e248e10 # v1.6.2
       - name: Run install
         run: |
@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: shiron-dev/actions/setup-node@d898596addf114b0b4a4cd9a984775410e248e10 # v1.6.2
       - name: Run install
         run: |
@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: shiron-dev/actions/setup-node@d898596addf114b0b4a4cd9a984775410e248e10 # v1.6.2
       - name: Run install
         run: |
@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: shiron-dev/actions/setup-node@d898596addf114b0b4a4cd9a984775410e248e10 # v1.6.2
       - name: Run install
         run: |
@@ -58,7 +58,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: shiron-dev/actions/setup-node@d898596addf114b0b4a4cd9a984775410e248e10 # v1.6.2
       - name: Run install
         run: |
@@ -70,7 +70,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Check all-status-check
         run: |
           diff \
