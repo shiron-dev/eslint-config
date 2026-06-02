@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@antfu/eslint-config':
         specifier: ^7.7.3
-        version: 7.7.3(4ab8893f74d31b6b190f9fdafd96f13f)
+        version: 7.7.3(c263f2224bedeae1db51ec5978678445)
     devDependencies:
       '@eslint-react/eslint-plugin':
         specifier: 2.13.0
@@ -49,8 +49,8 @@ importers:
         specifier: 0.14.5
         version: 0.14.5(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3)
       eslint-plugin-svelte:
-        specifier: 3.18.0
-        version: 3.18.0(eslint@10.4.1(jiti@2.7.0))(svelte@5.56.0(@typescript-eslint/types@8.60.0))
+        specifier: 3.19.0
+        version: 3.19.0(eslint@10.4.1(jiti@2.7.0))(svelte@5.56.0(@typescript-eslint/types@8.60.0))
       eslint-typegen:
         specifier: 2.3.1
         version: 2.3.1(eslint@10.4.1(jiti@2.7.0))
@@ -2204,8 +2204,8 @@ packages:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
       typescript: '>=4.8.4'
 
-  eslint-plugin-svelte@3.18.0:
-    resolution: {integrity: sha512-vc3P37lrDronWDb2kPXiG8sqkuiMqitGXSSaflb7Y+jpDgNoAzW8i7tdqyJKpcLZmFIqZCD+je2oZRf9qyRyBw==}
+  eslint-plugin-svelte@3.19.0:
+    resolution: {integrity: sha512-t3rNaZeXz4d2gG4uJyMEYfJCFKf22+SWbSizIIXIWKu4wM+XPLiMWuSSr/C5821JmFeN9ogK+eExbG+z+twyxw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.1 || ^9.0.0 || ^10.0.0
@@ -3684,7 +3684,7 @@ packages:
 
 snapshots:
 
-  '@antfu/eslint-config@7.7.3(4ab8893f74d31b6b190f9fdafd96f13f)':
+  '@antfu/eslint-config@7.7.3(c263f2224bedeae1db51ec5978678445)':
     dependencies:
       '@antfu/install-pkg': 1.1.0
       '@clack/prompts': 1.5.0
@@ -3731,7 +3731,7 @@ snapshots:
       eslint-plugin-react-hooks: 7.1.1(eslint@10.4.1(jiti@2.7.0))
       eslint-plugin-react-refresh: 0.5.2(eslint@10.4.1(jiti@2.7.0))
       eslint-plugin-solid: 0.14.5(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3)
-      eslint-plugin-svelte: 3.18.0(eslint@10.4.1(jiti@2.7.0))(svelte@5.56.0(@typescript-eslint/types@8.60.0))
+      eslint-plugin-svelte: 3.19.0(eslint@10.4.1(jiti@2.7.0))(svelte@5.56.0(@typescript-eslint/types@8.60.0))
       svelte-eslint-parser: 1.7.0(svelte@5.56.0(@typescript-eslint/types@8.60.0))
     transitivePeerDependencies:
       - '@eslint/json'
@@ -5582,7 +5582,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-svelte@3.18.0(eslint@10.4.1(jiti@2.7.0))(svelte@5.56.0(@typescript-eslint/types@8.60.0)):
+  eslint-plugin-svelte@3.19.0(eslint@10.4.1(jiti@2.7.0))(svelte@5.56.0(@typescript-eslint/types@8.60.0)):
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.4.1(jiti@2.7.0))
       '@jridgewell/sourcemap-codec': 1.5.5
