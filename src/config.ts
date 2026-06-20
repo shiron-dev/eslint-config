@@ -15,4 +15,22 @@ export const shironConfigs: Awaitable<TypedFlatConfigItem | TypedFlatConfigItem[
       ],
     },
   },
+  {
+    files: ["pnpm-workspace.yaml"],
+    // antfu's config enforces `trustPolicy: "no-downgrade"` on pnpm-workspace.yaml,
+    // which cannot be satisfied by tools whose dependency tree contains a trust
+    // downgrade (e.g. renovate -> semver), so installs are rejected outright.
+    // Keep `shellEmulator` but drop the `trustPolicy` requirement.
+    name: "shiron/pnpm/relax-trust-policy",
+    rules: {
+      "pnpm/yaml-enforce-settings": [
+        "error",
+        {
+          settings: {
+            shellEmulator: true,
+          },
+        },
+      ],
+    },
+  },
 ];
