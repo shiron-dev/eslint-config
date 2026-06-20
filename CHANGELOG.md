@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.8](https://github.com/shiron-dev/eslint-config/compare/eslint-config-v2.1.7...eslint-config-v2.1.8) (2026-06-20)
+
+
+### Bug Fixes
+
+* deploy inspector from dist output ([#1176](https://github.com/shiron-dev/eslint-config/issues/1176)) ([6bad295](https://github.com/shiron-dev/eslint-config/commit/6bad2952147bf2419a72a615f983e4b0c1d958f8))
+
 ## [2.1.7](https://github.com/shiron-dev/eslint-config/compare/eslint-config-v2.1.6...eslint-config-v2.1.7) (2026-06-20)
 
 
