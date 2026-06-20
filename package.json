@@ -67,6 +67,14 @@
     "vitest": "4.1.9",
     "wrangler": "4.101.0"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp",
+      "simple-git-hooks",
+      "workerd"
+    ]
+  },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
   },
