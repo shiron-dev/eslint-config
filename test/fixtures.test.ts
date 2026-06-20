@@ -117,9 +117,14 @@ export default antfu(
 )
   `);
 
+    // Fixtures intentionally contain code that trips lint rules; some (e.g.
+    // e18e/prefer-static-regex) are not auto-fixable and make eslint exit
+    // non-zero. We only care about the auto-fixed output snapshot, so don't
+    // let a non-zero exit code reject the run.
     await execa("npx", ["eslint", ".", "--fix"], {
       cwd: target,
       stdio: "pipe",
+      reject: false,
     });
 
     const files = await fg("**/*", {
