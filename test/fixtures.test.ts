@@ -113,6 +113,11 @@ import antfu from '@antfu/eslint-config'
 
 export default antfu(
   ${JSON.stringify(configs)},
+  {
+    rules: {
+      'e18e/prefer-static-regex': 'off',
+    },
+  },
   ...${JSON.stringify(items) ?? []},
 )
   `);
