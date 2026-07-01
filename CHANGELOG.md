@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.9](https://github.com/shiron-dev/eslint-config/compare/eslint-config-v2.1.8...eslint-config-v2.1.9) (2026-07-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^9.1.0 ([#1189](https://github.com/shiron-dev/eslint-config/issues/1189)) ([8ba82c5](https://github.com/shiron-dev/eslint-config/commit/8ba82c55ed750e429f478681a5105db0bceb92aa))
+
 ## [2.1.8](https://github.com/shiron-dev/eslint-config/compare/eslint-config-v2.1.7...eslint-config-v2.1.8) (2026-06-20)
 
 
