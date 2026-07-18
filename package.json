@@ -65,7 +65,7 @@
     "tsup": "8.5.1",
     "typescript": "6.0.3",
     "vitest": "4.1.10",
-    "wrangler": "4.110.0"
+    "wrangler": "4.111.0"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
