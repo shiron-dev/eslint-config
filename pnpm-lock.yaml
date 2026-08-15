@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@antfu/eslint-config':
         specifier: ^9.3.0
-        version: 9.3.0(0a71a6aa46f3eebd207ee0bc9d35d658)
+        version: 9.3.0(d809f58b5b4c856b7f54b1f3314e6bb8)
     devDependencies:
       '@eslint-react/eslint-plugin':
         specifier: 5.18.4
@@ -50,7 +50,7 @@ importers:
         version: 0.14.5(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
       eslint-plugin-svelte:
         specifier: 3.22.0
-        version: 3.22.0(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.56.8(@typescript-eslint/types@8.66.0))
+        version: 3.22.0(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.56.9(@typescript-eslint/types@8.66.0))
       eslint-typegen:
         specifier: 2.3.1
         version: 2.3.1(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))
@@ -79,8 +79,8 @@ importers:
         specifier: 2.13.1
         version: 2.13.1
       svelte:
-        specifier: 5.56.8
-        version: 5.56.8(@typescript-eslint/types@8.66.0)
+        specifier: 5.56.9
+        version: 5.56.9(@typescript-eslint/types@8.66.0)
       tsup:
         specifier: 8.5.1
         version: 8.5.1(jiti@2.7.0)(postcss@8.5.26)(supports-color@10.2.2)(tsx@4.23.11)(typescript@6.0.3)(yaml@2.9.0)
@@ -3131,8 +3131,8 @@ packages:
       svelte:
         optional: true
 
-  svelte@5.56.8:
-    resolution: {integrity: sha512-PY8LOw7xP6c8IOiVqdo0sbbZVYhXRSfklOQLAUyGBKqjTX0wx/z4l/9J+PmBpmlLnxzEb1NqltxQ5/wZme/Cmg==}
+  svelte@5.56.9:
+    resolution: {integrity: sha512-VT8kSnlEg8069w7AiCcAk3Yf5xvMnrGTagVOmU/OpOLHaHnNqXhWZCH/4EVga/bT/HtWhvE6/fHrXLErx7OnJA==}
     engines: {node: '>=18'}
 
   synckit@0.11.13:
@@ -3481,7 +3481,7 @@ packages:
 
 snapshots:
 
-  '@antfu/eslint-config@9.3.0(0a71a6aa46f3eebd207ee0bc9d35d658)':
+  '@antfu/eslint-config@9.3.0(d809f58b5b4c856b7f54b1f3314e6bb8)':
     dependencies:
       '@antfu/install-pkg': 2.0.1
       '@clack/prompts': 1.7.0
@@ -3527,8 +3527,8 @@ snapshots:
       eslint-plugin-format: 2.0.1(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))
       eslint-plugin-react-refresh: 0.5.4(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))
       eslint-plugin-solid: 0.14.5(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
-      eslint-plugin-svelte: 3.22.0(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.56.8(@typescript-eslint/types@8.66.0))
-      svelte-eslint-parser: 1.8.0(svelte@5.56.8(@typescript-eslint/types@8.66.0))
+      eslint-plugin-svelte: 3.22.0(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.56.9(@typescript-eslint/types@8.66.0))
+      svelte-eslint-parser: 1.8.0(svelte@5.56.9(@typescript-eslint/types@8.66.0))
     transitivePeerDependencies:
       - '@eslint/json'
       - '@typescript-eslint/typescript-estree'
@@ -5229,7 +5229,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-svelte@3.22.0(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.56.8(@typescript-eslint/types@8.66.0)):
+  eslint-plugin-svelte@3.22.0(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.56.9(@typescript-eslint/types@8.66.0)):
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))
       '@jridgewell/sourcemap-codec': 1.5.5
@@ -5241,9 +5241,9 @@ snapshots:
       postcss-load-config: 3.1.4(postcss@8.5.26)
       postcss-safe-parser: 7.0.1(postcss@8.5.26)
       semver: 7.8.5
-      svelte-eslint-parser: 1.8.0(svelte@5.56.8(@typescript-eslint/types@8.66.0))
+      svelte-eslint-parser: 1.8.0(svelte@5.56.9(@typescript-eslint/types@8.66.0))
     optionalDependencies:
-      svelte: 5.56.8(@typescript-eslint/types@8.66.0)
+      svelte: 5.56.9(@typescript-eslint/types@8.66.0)
     transitivePeerDependencies:
       - ts-node
 
@@ -6523,7 +6523,7 @@ snapshots:
 
   supports-color@10.2.2: {}
 
-  svelte-eslint-parser@1.8.0(svelte@5.56.8(@typescript-eslint/types@8.66.0)):
+  svelte-eslint-parser@1.8.0(svelte@5.56.9(@typescript-eslint/types@8.66.0)):
     dependencies:
       eslint-scope: 8.4.0
       eslint-visitor-keys: 4.2.1
@@ -6533,9 +6533,9 @@ snapshots:
       postcss-selector-parser: 7.1.5
       semver: 7.8.5
     optionalDependencies:
-      svelte: 5.56.8(@typescript-eslint/types@8.66.0)
+      svelte: 5.56.9(@typescript-eslint/types@8.66.0)
 
-  svelte@5.56.8(@typescript-eslint/types@8.66.0):
+  svelte@5.56.9(@typescript-eslint/types@8.66.0):
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.5.5
