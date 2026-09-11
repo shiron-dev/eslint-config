@@ -1,7 +1,7 @@
 {
   "name": "@shiron-dev/eslint-config",
   "type": "module",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "description": "Config of ESLint for me.",
   "author": "shiron-dev",
   "license": "MIT",
@@ -65,7 +65,7 @@
     "tsup": "8.5.1",
     "typescript": "6.0.3",
     "vitest": "4.1.11",
-    "wrangler": "4.130.0"
+    "wrangler": "4.129.1"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
