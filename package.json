@@ -62,7 +62,7 @@
     "prettier": "3.9.10",
     "simple-git-hooks": "2.14.0",
     "svelte": "5.57.2",
-    "tsup": "8.5.1",
+    "tsup": "9.0.0",
     "typescript": "6.0.3",
     "vitest": "4.1.11",
     "wrangler": "4.151.0"
