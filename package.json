@@ -58,7 +58,7 @@
     "fast-glob": "3.3.3",
     "fs-extra": "11.4.1",
     "jiti": "2.7.0",
-    "lint-staged": "17.6.0",
+    "lint-staged": "17.6.1",
     "prettier": "3.10.1",
     "simple-git-hooks": "2.14.0",
     "svelte": "5.57.3",
