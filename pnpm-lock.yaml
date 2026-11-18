@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@antfu/eslint-config':
         specifier: ^9.5.1
-        version: 9.5.1(9f53aab6a047c5fb5685d5327dab45a8)
+        version: 9.5.1(c01d53394398b028be7aeb3fe9c5098d)
     devDependencies:
       '@eslint-react/eslint-plugin':
         specifier: 5.30.2
@@ -43,8 +43,8 @@ importers:
         specifier: 7.1.1
         version: 7.1.1(eslint@10.15.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
       eslint-plugin-react-refresh:
-        specifier: 0.5.7
-        version: 0.5.7(eslint@10.15.0(jiti@2.7.0)(supports-color@10.2.2))
+        specifier: 0.5.8
+        version: 0.5.8(eslint@10.15.0(jiti@2.7.0)(supports-color@10.2.2))
       eslint-plugin-solid:
         specifier: 0.19.0
         version: 0.19.0(eslint@10.15.0(jiti@2.7.0)(supports-color@10.2.2))
@@ -2089,8 +2089,8 @@ packages:
       eslint:
         optional: true
 
-  eslint-plugin-react-refresh@0.5.7:
-    resolution: {integrity: sha512-XhJSzLljuYD4UjNuFGJu2v7aD3sqNVK12w5/DCUfrNfHWegZo2+TsavNx8MuxMwEquuFAzNbNfXKU0WoZ+YUIg==}
+  eslint-plugin-react-refresh@0.5.8:
+    resolution: {integrity: sha512-VYgz1iCC5LxeAd6YRz5ATfg8WKrNb1ulHMpCe4pQpn3CS9DiYpZi5wcag73O8iChLhrl/CmlGMmzA6eXZ2cX4Q==}
     peerDependencies:
       eslint: ^9 || ^10
 
@@ -3644,7 +3644,7 @@ packages:
 
 snapshots:
 
-  '@antfu/eslint-config@9.5.1(9f53aab6a047c5fb5685d5327dab45a8)':
+  '@antfu/eslint-config@9.5.1(c01d53394398b028be7aeb3fe9c5098d)':
     dependencies:
       '@antfu/install-pkg': 2.1.0
       '@clack/prompts': 1.9.0
@@ -3688,7 +3688,7 @@ snapshots:
       astro-eslint-parser: 1.4.0(supports-color@10.2.2)
       eslint-plugin-astro: 1.7.0(eslint@10.15.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
       eslint-plugin-format: 2.0.1(eslint@10.15.0(jiti@2.7.0)(supports-color@10.2.2))
-      eslint-plugin-react-refresh: 0.5.7(eslint@10.15.0(jiti@2.7.0)(supports-color@10.2.2))
+      eslint-plugin-react-refresh: 0.5.8(eslint@10.15.0(jiti@2.7.0)(supports-color@10.2.2))
       eslint-plugin-solid: 0.19.0(eslint@10.15.0(jiti@2.7.0)(supports-color@10.2.2))
       eslint-plugin-svelte: 3.24.1(eslint@10.15.0(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.57.3(@typescript-eslint/types@8.72.2))
       svelte-eslint-parser: 1.10.1(svelte@5.57.3(@typescript-eslint/types@8.72.2))
@@ -5426,7 +5426,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-react-refresh@0.5.7(eslint@10.15.0(jiti@2.7.0)(supports-color@10.2.2)):
+  eslint-plugin-react-refresh@0.5.8(eslint@10.15.0(jiti@2.7.0)(supports-color@10.2.2)):
     dependencies:
       eslint: 10.15.0(jiti@2.7.0)(supports-color@10.2.2)
 
